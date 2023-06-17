@@ -1,0 +1,136 @@
+.content-area {
+  margin-top: 70px;
+}
+.thebutton {
+  width: 200px !important;
+  background-color: #431883;
+  color: #ffffff;
+  height: 70px !important;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Roboto";
+  letter-spacing: normal;
+}
+@media screen and (max-width: 692px) {
+  .thebutton {
+    width: 150px !important;
+    font-size: 12px;
+    height: 50px !important;
+  }
+}
+.ft-col {
+  text-align: justify !important;
+  margin-top: 90px;
+}
+@media screen and (max-width: 992px) {
+  .ft-col {
+    margin-top: auto !important;
+  }
+}
+
+.thebody {
+  height: 630px;
+  margin-top: 120px;
+}
+@media (max-width: 992px) {
+  .thebody {
+    height: max-content;
+  }
+}
+.title-span {
+  color: #431883;
+}
+.faq-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+}
+.faq-bg {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding-bottom: 5px;
+}
+.faq-item-bg {
+  background-color: #431883;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.counts {
+width: 83px;
+height: 76px;
+left: 768px;
+top: 523px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 155.7%;
+text-align: center;
+letter-spacing: 0.02em;
+}
+.counter-div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.count-value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 155.7%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #431883;
+}
+.thewhy {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+@media (max-width: 992px) {
+  .thewhy {
+    margin-top: 2px !important;
+    padding-top: 2px !important;
+  }
+}
+@media (max-width: 760px) {
+  .all-section {
+    margin-top: 30px !important;
+    padding-top: 20px !important;
+  }
+}
+.accord {
+  width: 60%;
+}
+@media (max-width: 992px) {
+  .accord {
+    width: 100%;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Starting rotation angle */
+  }
+  to {
+    transform: rotate(360deg); /* Ending rotation angle (one full circle) */
+  }
+}
+.whyus {
+  animation: rotate 2s linear infinite; /* Apply animation to this element */
+}
+.word-text {
+  word-wrap: break-word;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto";
+  letter-spacing: normal;
+  line-height: 26.88px;
+}
+.thebutton a{
+  text-decoration: none !important;
+  color: #ffffff !important;
+}

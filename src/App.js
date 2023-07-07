@@ -1,14 +1,25 @@
 import './App.css';
-import Nav from './components/Nav'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Prices from './components/Prices';
+import Rates from './pages/Rates';
+
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Footer />
+      <Prices />
+      <Router>
+        <Routes>
+          <Route path="/rates" element={<Rates />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+

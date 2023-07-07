@@ -40,7 +40,7 @@ const Footer = () => {
                 <center>
                   <h3>CONTACT INFO</h3>
                   <p>Somewhere on earth</p>
-                  <p>+447723000776</p>
+                  <p>+44(0)701-000-000-0001</p>
                   <p>test@quickrate.com</p>
                 </center>
               }

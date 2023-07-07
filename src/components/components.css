@@ -41,3 +41,105 @@
 .footer-hr {
     border: 1px solid #000000;
 }
+
+/* Prices scroll css */
+.exchange-rate-slider {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #444;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+.ticker-wrapper {
+    display: flex;
+  animation: slideAnimation linear infinite;
+}
+
+.ticker-content {
+    display: inline-flex;
+    animation: scrollAnimation 100s linear infinite;
+  }
+
+.ticker-item {
+    display: inline-block;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+
+@keyframes slideAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+@keyframes scrollAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+/* *, *::before, *::after{
+    -webkit-box-sizing:padding-box;
+    box-sizing:padding-box;
+  }
+  
+  body{
+    background:#CCC;
+  }
+  
+  body,
+  div,
+  ul,
+  li,
+  p {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    font-size: 16pt;
+  }
+   */
+  .tickerwrapper {
+    /* the outer div */
+    
+    position: relative;
+    top: 30px;
+    left:0%;
+    border: 1px solid #444;
+    background: #000;
+    color: #fff;
+    width: 99.9%;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  ul.list {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding:0;
+    margin:0;
+  }
+  
+  ul.list.cloned {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  ul.list li {
+    float: left;
+    padding-left: 20px;
+  }

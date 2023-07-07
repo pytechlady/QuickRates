@@ -2,8 +2,10 @@ import React from "react";
 import Column2 from "../components/Column2";
 import HeroImg from "../assets/img/hero_img.png";
 import "./pages.css";
+import "./Rates.js";
 
 const Hero = () => {
+
   return (
     <div className="thebody all-section">
       <div className="container text-center">
@@ -30,7 +32,7 @@ const Hero = () => {
                     </p>
                   </div>
                   <button type="button" className="btn thebutton">
-                    <a href="#about">DISCOVER MORE</a>
+                    VIEW RATES
                   </button>
                 </>
               }

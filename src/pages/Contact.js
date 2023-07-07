@@ -22,7 +22,7 @@ const Contact = () => {
                   <center>
                     <img className="theimage w-10" src={Tel} alt="telImg" />
                     <p>Contact Phone Number</p>
-                    <p>+447723000776</p>
+                    <p>+44(0)701-000-000-0001</p>
                     <p>Monday - Friday (9:00 AM - 5:00 PM)</p>
                     </center>
                   </>

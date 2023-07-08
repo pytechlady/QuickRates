@@ -9,10 +9,11 @@ import Rates from './pages/Rates';
 function App() {
   return (
     <div className="App">
+      
+      <Router>
       <Nav />
       <Footer />
       <Prices />
-      <Router>
         <Routes>
           <Route path="/rates" element={<Rates />} />
         </Routes>

@@ -3,6 +3,7 @@ import Column2 from "../components/Column2";
 import HeroImg from "../assets/img/hero_img.png";
 import "./pages.css";
 import "./Rates.js";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
 
@@ -32,7 +33,7 @@ const Hero = () => {
                     </p>
                   </div>
                   <button type="button" className="btn thebutton">
-                    VIEW RATES
+                    <Link to="/rates">VIEW RATES</Link>
                   </button>
                 </>
               }

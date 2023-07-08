@@ -66,6 +66,11 @@
     animation: scrollAnimation 100s linear infinite;
   }
 
+.ticker-content2 {
+    display: inline-flex;
+    animation: scrollAnimation 10s linear infinite;
+  }
+
 .ticker-item {
     display: inline-block;
     padding: 0 10px;

@@ -26,7 +26,7 @@ const Prices = () => {
         <div className="ticker-content">
           {exchangeRate.map((item, index) => (
             <div className="ticker-item" key={index}>
-                {item.symbol}={item.price}
+                {item.symbol}=${item.price}
             </div>
            
           ))}

@@ -9,4 +9,17 @@
   color: #ffffff !important;
   
 }
+section {
+  width: 100%;
+  padding: 1rem;
+}
+
+.fw-bold {
+  font-family: 'Roboto Slab', serif !important;
+}
+.fw-light,
+.form-label,
+.form-select {
+  font-family: 'Ubuntu', sans-serif !important;
+}
 
